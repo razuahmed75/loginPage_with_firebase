@@ -1,14 +1,9 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:myapp/login.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:myapp/sharedPreference_auth.dart';
-
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:avatar_glow/avatar_glow.dart';
-
 import 'others/drawer.dart';
 
 class HomePage extends StatefulWidget {
